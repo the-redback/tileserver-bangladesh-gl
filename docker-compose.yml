@@ -2,7 +2,7 @@ version: "3.1"
 
 services:
   tileserver-gl:
-    image: klokantech/tileserver-gl:latest
+    image: fa7ad/tileserver-gl-slim:latest
     volumes:
       - "./:/data"
     ports:
